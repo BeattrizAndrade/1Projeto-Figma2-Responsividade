@@ -1,0 +1,182 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#principal {
+    display: inline-block;
+    width: 60%;
+    padding-left: 136px;
+    margin-top: 20%;
+
+}
+
+#fundo-lateral {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 130vh;
+    width: 40%;
+    position: absolute;
+}
+
+
+#menu {
+    margin-top: 24px;
+    position: absolute;
+}
+
+
+#total {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.todas {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    margin-left: 41px;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+#unica {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    margin-left: 41px;
+    cursor: pointer;
+}
+
+
+#titulo {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+    width: 368px;
+    height: 160px;
+
+}
+
+#pr {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    width: 540px;
+    height: 144px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+
+}
+
+#botão {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    border: none;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+#botão:hover {
+    opacity: 0.8;
+}
+
+#botão:active {
+    opacity: 0.5;
+}
+
+#img-site {
+    width: 456px;
+    height: 561.95px;
+    top: 160px;
+    right: 140px;
+    position: relative;
+
+
+}
+
+@media screen and (max-width: 900px) {
+    #principal {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #fundo-lateral{
+        display: block;
+        height: 55%;
+        width: 105%;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    #titulo {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px;
+        width: 200px;
+        height: 104px;
+        text-align: center;
+        margin: 58px auto 0 auto;
+    }
+
+    #pr {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        width: 250px;
+        height: 96px;
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    #botão{
+        font-weight: 400;
+        width: 296px;
+        height: 62px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #img-site{
+        position: static;
+        width: 350px;
+        height: 450px;
+        margin: 20px auto;
+        margin-left: 35px;
+    }
+
+
+
+}
